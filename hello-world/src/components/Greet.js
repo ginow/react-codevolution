@@ -1,2 +1,6 @@
 import React from 'react'
-export const Greet = () => <h1>Hello World, export default helps to give any name while importing!</h1>
+const Greet = props => {
+    console.log(props);
+    return <h1>Hello vishwas {props.name}</h1>
+}
+export default Greet;

@@ -1,11 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
-import { Greet } from './components/Greet'
-import Hello from './components/Hello'
+import Greet from './components/Greet'
 function App() {
   return (
     <div className="App">
-      <Hello></Hello>
+      <Greet name="Bruce"></Greet>
+      <Greet name="Clark"></Greet>
+      <Greet name="Lee"></Greet>
     </div>
   );
 }
