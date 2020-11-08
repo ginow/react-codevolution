@@ -3,16 +3,11 @@ import './App.css';
 import Greet from './components/Greet'
 import Welcome from './components/Welcome'
 import Message from './components/Message'
+import Counter from './components/Counter'
 function App() {
   return (
     <div className="App">
-      {/*
-      <Greet name="Bruce"><p>child para</p></Greet>
-      <Greet name="Clark"><button>child button</button></Greet>
-      <Greet name="Lee"></Greet>
-      <Welcome name="PropertyForWelcomeClass"></Welcome>
-      */}
-      <Message></Message>
+      <Counter></Counter>
     </div>
   );
 }
