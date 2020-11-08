@@ -47,5 +47,5 @@ class Welcome extends React.Component{
 - state is managed within the component
 - variables declared in the function body
 - state can be changed 
-- useState Hook - Functional Components
-  this.state - Class Components
+  - useState Hook - Functional Components
+  - this.state - Class Components
