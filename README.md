@@ -1,4 +1,4 @@
-# react-codevolution
+# react-codevolution notes
 
 - npx is npm package runner, so that packages can be run without even installing them
 
