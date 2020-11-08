@@ -35,3 +35,17 @@ class Welcome extends React.Component{
 - Provide lifecycle hooks
 - Stateful/ Smart/ Container
 
+## Props vs State
+
+### Props
+- props get passed to the component
+- Function parameters
+- props are immutable (readonly)
+- props - Functional Components
+  this.props -Class Components
+### State
+- state is managed within the component
+- variables declared in the function body
+- state can be changed 
+- useState Hook - Functional Components
+  this.state - Class Components
