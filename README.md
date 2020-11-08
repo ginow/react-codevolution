@@ -19,3 +19,18 @@ class Welcome extends React.Component{
 }
 ```
 
+## Functional vs Class components
+### Functional
+- Simple functions
+- Use it as much as possible
+- Absence of 'this' keyword
+- Solution without using state
+- Mainly responsible for the UI
+- Stateless/ Dumb/ Presentational
+### Class
+- More feature rich 
+- Maintain their own private data - state
+- Complex UI logic
+- Provide lifecycle hooks
+- Stateful/ Smart/ Container
+
