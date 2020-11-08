@@ -41,8 +41,8 @@ class Welcome extends React.Component{
 - props get passed to the component
 - Function parameters
 - props are immutable (readonly)
-- props - Functional Components
-  this.props -Class Components
+  - props - Functional Components
+  - this.props -Class Components
 ### State
 - state is managed within the component
 - variables declared in the function body
