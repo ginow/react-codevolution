@@ -9,8 +9,9 @@ export class Counter extends Component {
     }
     increment() {
         // React groups setState calls, so use prevState
-        this.setState((prevState) => ({
-            count: prevState.count + 1
+        // If dependent on props then pass it as argument as well
+        this.setState((prevState, props) => ({
+            count: prevState.count + props.somevariable
         }))
     }
     incrementFiveTimes() {
