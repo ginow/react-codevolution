@@ -2,8 +2,8 @@
 
 - npx is npm package runner, so that packages can be run without even installing them
 
-Component Types
----
+## Component Types
+
 - Stateless
 ``` Javascript
 function welcome(props){
@@ -20,6 +20,7 @@ class Welcome extends React.Component{
 ```
 
 ## Functional vs Class components
+
 ### Functional
 - Simple functions
 - Use it as much as possible
