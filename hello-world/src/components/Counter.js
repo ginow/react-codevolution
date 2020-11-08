@@ -8,20 +8,23 @@ export class Counter extends Component {
         }
     }
     increment() {
-        // do not change value of state directly it will not update UI, use setState
-        // so do not do like: this.state.count=this.state.count +1
-        this.setState({
-            count: this.state.count + 1
-        }, () => {
-            // setState is async so use callback
-            console.log(this.state.count)
-        })
+        // React groups setState calls, so use prevState
+        this.setState((prevState) => ({
+            count: prevState.count + 1
+        }))
+    }
+    incrementFiveTimes() {
+        this.increment()
+        this.increment()
+        this.increment()
+        this.increment()
+        this.increment()
     }
     render() {
         return (
             <div>
                 <div>count - {this.state.count}</div>
-                <button onClick={() => this.increment()}>Increment</button>
+                <button onClick={() => this.incrementFiveTimes()}>IncrementFiveTimes</button>
             </div>
         )
     }
