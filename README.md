@@ -50,7 +50,7 @@ class Welcome extends React.Component{
   - useState Hook - Functional Components
   - this.state - Class Components
 
-  ### Event Handling approaches
-  1. using .bind(this), every update to the state causes rerender which will create new event handler, causes performance issue, so don't use this approach
-  2. onClick={() => this.clickHandler()}>, this also has performance issue
-  3. Best approach is binding inside constructor
+### Event Handling approaches
+1. using .bind(this), every update to the state causes rerender which will create new event handler, causes performance issue, so don't use this approach
+2. onClick={() => this.clickHandler()}>, this also has performance issue
+3. Best approach is binding inside constructor
