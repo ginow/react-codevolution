@@ -49,3 +49,6 @@ class Welcome extends React.Component{
 - state can be changed 
   - useState Hook - Functional Components
   - this.state - Class Components
+
+  ### Event Handling
+  - using .bind(this), every update to the state causes rerender which will create new event handler, causes performance issue, so don't use this approach
