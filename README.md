@@ -64,3 +64,13 @@ class Welcome extends React.Component{
 1. using .bind(this), every update to the state causes rerender which will create new event handler, causes performance issue, so don't use this approach
 2. onClick={() => this.clickHandler()}, this also has performance issue
 3. Best approach is binding inside constructor
+
+## List Rendering
+
+### Index as key
+
+When to use?
+
+- List doesn't have a unique id
+- List is static and doesn't change
+- List will never be reordered or filtered
