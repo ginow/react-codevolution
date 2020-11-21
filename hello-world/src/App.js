@@ -1,9 +1,9 @@
 import './App.css';
-import StyleSheet from './components/Stylesheet'
+import Inline from './components/Inline'
 function App() {
   return (
     <div className="App">
-      <StyleSheet primary={false}></StyleSheet>
+      <Inline></Inline>
     </div>
   );
 }
