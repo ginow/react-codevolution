@@ -3,7 +3,7 @@ import React from 'react'
 function Columns() {
     const items = [{ title: 'firstlistitem' }, { title: 'secondlistitem' }]
     return (
-        <React.Fragment>
+        <>
             {
                 items.map(item => (
                     < React.Fragment key={item.id}>
@@ -14,7 +14,7 @@ function Columns() {
             }
             <td>Name</td>
             <td>Vishwas</td>
-        </React.Fragment >
+        </>
     )
 }
 
