@@ -79,12 +79,12 @@ When to use?
 
 Pure Components:
 
-- Implements shouldComponentUpdate by shallow comparison on props and state of component
+- Implements `shouldComponentUpdate` by shallow comparison on props and state of component
 - So prevents unnecessary re-rendering
 
 Note: Shallow comparison eg.
 
 ```
-varA=varB //is true if both have same value and are of same type
-objA=objB //is true if both reference the exact same object
+varA==varB //is true if both have same value and are of same type
+objA==objB //is true if both reference the exact same object
 ```
