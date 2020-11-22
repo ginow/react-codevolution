@@ -28,7 +28,7 @@ class Welcome extends React.Component{
 
 - Simple functions
 - Use it as much as possible
-- Absence of 'this' keyword
+- Absence of `this` keyword
 - Solution without using state
 - Mainly responsible for the UI
 - Stateless/ Dumb/ Presentational
@@ -61,8 +61,8 @@ class Welcome extends React.Component{
 
 ## Event Handling approaches
 
-1. using .bind(this), every update to the state causes rerender which will create new event handler, causes performance issue, so don't use this approach
-2. onClick={() => this.clickHandler()}, this also has performance issue
+1. using `.bind(this)`, every update to the state causes rerender which will create new event handler, causes performance issue, so don't use this approach
+2. `onClick={() => this.clickHandler()}`, this also has performance issue
 3. Best approach is binding inside constructor
 
 ## List Rendering
@@ -77,6 +77,10 @@ When to use?
 
 ## Regular vs Pure Components
 
+Regular Component:
+
+- Doesn't implements `shouldComponentUpdate` so always returns true.
+
 Pure Components:
 
 - Implements `shouldComponentUpdate` by shallow comparison on props and state of component
@@ -84,7 +88,7 @@ Pure Components:
 
 Note: Shallow comparison eg.
 
-```
+```JavaScript
 varA==varB //is true if both have same value and are of same type
 objA==objB //is true if both reference the exact same object
 ```
