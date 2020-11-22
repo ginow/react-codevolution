@@ -1,9 +1,9 @@
 import './App.css';
-import Table from './components/Table';
+import ParentComp from './components/ParentComp';
 function App() {
   return (
     <div className="App">
-      <Table></Table>
+      <ParentComp></ParentComp>
     </div>
   );
 }
