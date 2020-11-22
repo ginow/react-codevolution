@@ -59,7 +59,7 @@ class Welcome extends React.Component{
   - useState Hook - Functional Components
   - this.state - Class Components
 
-### Event Handling approaches
+## Event Handling approaches
 
 1. using .bind(this), every update to the state causes rerender which will create new event handler, causes performance issue, so don't use this approach
 2. onClick={() => this.clickHandler()}, this also has performance issue
@@ -74,3 +74,17 @@ When to use?
 - List doesn't have a unique id
 - List is static and doesn't change
 - List will never be reordered or filtered
+
+## Regular vs Pure Components
+
+Pure Components:
+
+- Implements shouldComponentUpdate by shallow comparison on props and state of component
+- So prevents unnecessary re-rendering
+
+Note: Shallow comparison eg.
+
+```
+varA=varB //is true if both have same value and are of same type
+objA=objB //is true if both reference the exact same object
+```
