@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-
+import LifecycleB from './LIfecylceB'
 class LifecycleA extends Component {
     constructor(props) {
         super(props)
@@ -22,6 +22,7 @@ class LifecycleA extends Component {
         return (
             <div>
                LifecycleA 
+               <LifecycleB></LifecycleB>
             </div>
         )
     }
