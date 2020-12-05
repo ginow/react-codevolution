@@ -97,3 +97,7 @@ objA==objB //is true if both reference the exact same object
 
 - Doesn't catch error inside event handlers (because they don't happen during rendering)
 - Use try catch in event handler
+
+## Higher Order Components - HOC
+
+- A pattern where a function takes a component as an argument and returns a new component
