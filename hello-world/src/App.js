@@ -1,9 +1,9 @@
 import './App.css';
-import FocusInput from './components/FocusInput';
+import FRParentInput from './components/FRParentInput'
 function App() {
   return (
     <div className="App">
-      <FocusInput></FocusInput>
+      <FRParentInput></FRParentInput>
     </div>
   );
 }
