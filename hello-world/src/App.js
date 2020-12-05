@@ -1,12 +1,14 @@
 import './App.css';
-import ClickCounter from './components/ClickCounter';
-import HoverCounter from './components/HoverCounter';
+import ClickCounterTwo from './components/ClickCounterTwo';
+import HoverCounterTwo from './components/HoverCounterTwo';
+import User from './components/User';
 
 function App() {
   return (
     <div className="App">
-      <ClickCounter name='PassingPropsInHoc'></ClickCounter>
-      <HoverCounter></HoverCounter>
+      <ClickCounterTwo></ClickCounterTwo>
+      <HoverCounterTwo></HoverCounterTwo>
+      <User render={(isLoggedIn) => isLoggedIn ? 'Developer' : 'Guest'}></User>
     </div>
   );
 }

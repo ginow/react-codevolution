@@ -105,3 +105,7 @@ objA==objB //is true if both reference the exact same object
 ### Issue with passing props
 
 - Props get passed only to HOC not to the component which is wrapped
+
+## Render Props
+
+- Share code between react components using a prop whose value is a function
