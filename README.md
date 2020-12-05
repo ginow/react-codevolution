@@ -92,3 +92,8 @@ Note: Shallow comparison eg.
 varA==varB //is true if both have same value and are of same type
 objA==objB //is true if both reference the exact same object
 ```
+
+## Error Boundary
+
+- Doesn't catch error inside event handlers (because they don't happen during rendering)
+- Use try catch in event handler
