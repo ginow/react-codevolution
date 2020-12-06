@@ -109,3 +109,7 @@ objA==objB //is true if both reference the exact same object
 ## Render Props
 
 - Share code between react components using a prop whose value is a function
+
+## Context
+
+- Pass data through component tree without having to pass props at every level
