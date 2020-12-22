@@ -139,3 +139,7 @@ objA==objB //is true if both reference the exact same object
 - doesn't automatically merge objects unlike setState
 - returns an array with 2 elements, current value of state and state setter function
 - if new state value depends on previous then pass a function to setter function
+
+### useEffect
+
+- runs after every render of the component (so will run on componentDidMount and componentDidUpdate)
