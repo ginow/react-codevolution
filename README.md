@@ -113,3 +113,18 @@ objA==objB //is true if both reference the exact same object
 ## Context
 
 - Pass data through component tree without having to pass props at every level
+
+## Hooks
+
+### What are Hooks?
+
+- Use React features without class
+  eg. State of component
+- Hooks don't work in class
+
+### Why Hooks?
+
+- No need to know how this 'keyword' works
+- No need to remember bind event handlers in class components
+- HOC and render props helps to reuse stateful component logic but code is harder to follow
+- Data fetching and subscribing to events related code is organised in one place
