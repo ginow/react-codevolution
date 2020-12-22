@@ -128,3 +128,8 @@ objA==objB //is true if both reference the exact same object
 - No need to remember bind event handlers in class components
 - HOC and render props helps to reuse stateful component logic but code is harder to follow
 - Data fetching and subscribing to events related code is organised in one place
+
+### Rules of Hooks
+
+- Call only at top level, not in loops, conditions or nested functions
+- Call only from React functions, not js function
