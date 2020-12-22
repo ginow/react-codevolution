@@ -133,3 +133,5 @@ objA==objB //is true if both reference the exact same object
 
 - Call only at top level, not in loops, conditions or nested functions
 - Call only from React functions, not js function
+
+#### useState Hook doesn't automatically merge objects unlike setState
