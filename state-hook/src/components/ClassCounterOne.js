@@ -12,11 +12,13 @@ class ClassCounterOne extends Component {
         document.title = `Clicked ${this.state.count} times`
     }
     componentDidUpdate(prevProps, prevState) {
-        // This method is called not only for button click but also when user presses keys and types to input element
-        // For every key stroke this method is called which is unnecessary
-        console.log("updating document title")
-        // If you don't write this function then the title doesn't change when state of ClassCounterOne component changes
-        document.title = `Clicked ${this.state.count} times`
+        if (prevState.count != this.state.count) {
+            // This method is called not only for button click but also when user presses keys and types to input element
+            // For every key stroke this method is called which is unnecessary
+            console.log("updating document title")
+            // If you don't write this function then the title doesn't change when state of ClassCounterOne component changes
+            document.title = `Clicked ${this.state.count} times`
+        }
     }
     render() {
         return (
