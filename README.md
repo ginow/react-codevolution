@@ -143,3 +143,4 @@ objA==objB //is true if both reference the exact same object
 ### useEffect
 
 - runs after every render of the component (so will run on componentDidMount and componentDidUpdate)
+- for componentUnmount write the code in return statement of useEffect
