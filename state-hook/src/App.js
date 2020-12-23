@@ -1,10 +1,10 @@
 import './App.css';
-import UseEffectCounterOne from './components/UseEffectCounterOne';
+import ClassCounterOne from './components/ClassCounterOne';
 
 function App() {
   return (
     <div className="App">
-      <UseEffectCounterOne></UseEffectCounterOne>
+      <ClassCounterOne></ClassCounterOne>
     </div>
   );
 }
