@@ -12,7 +12,8 @@ function HookMouse() {
         // This method will be called at every render
         console.log('useEffect called')
         window.addEventListener('mousemove', logMousePosition)
-    })
+    }, []) // Empty array to specify no prop and no state, this prevents unnecessary callings
+
     return (
         <div>
             Hooks X- {x} Y- {y}
