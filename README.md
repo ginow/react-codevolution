@@ -1,5 +1,15 @@
 # react-codevolution notes
 
+## Disclaimer
+
+All the code has been taken from a youtube channel called 'Codevolution'
+Below is the playlist
+https://www.youtube.com/watch?v=QFaFIcGhPoM&list=PLC3y8-rFHvwgg3vaYJgHGnModB54rxOk3
+
+I do not own or take credit for it.
+
+## npx
+
 - npx is npm package runner, so that packages can be run without even installing them
 
 ## Component Types
