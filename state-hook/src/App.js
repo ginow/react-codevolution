@@ -1,10 +1,10 @@
 import './App.css';
-import UseEffectCounterOne from './components/UseEffectCounterOne';
+import ClassMouse from './components/ClassMouse';
 
 function App() {
   return (
     <div className="App">
-      <UseEffectCounterOne></UseEffectCounterOne>
+      <ClassMouse></ClassMouse>
     </div>
   );
 }
