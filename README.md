@@ -158,3 +158,31 @@ objA==objB //is true if both reference the exact same object
 ### useContext
 
 - Pass data in component tree without passing props at every level
+
+### useReducer
+
+- for state management
+- useState is built using useReducer
+
+## JavaScript reducer
+
+```javascript
+const array1 = [1, 2, 3, 4];
+const reducer = (accumulator, currentValue) => accumulator + currentValue;
+
+// 1 + 2 + 3 + 4
+console.log(array1.reduce(reducer));
+// expected output: 10
+
+// 5 + 1 + 2 + 3 + 4
+console.log(array1.reduce(reducer, 5));
+// expected output: 15
+```
+
+### reduce vs useReducer
+
+| reduce in js                               | useReducer in React                                      |
+| ------------------------------------------ | -------------------------------------------------------- |
+| array.reduce(reducer,initialValue)         | useReducer(reducer,initialState)                         |
+| singleValue=reducer(accumulator,itemValue) | newState=reducer(currentState,action)                    |
+| reduce method returns a single value       | useReducer returns a pair of values. [newState,dispatch] |
