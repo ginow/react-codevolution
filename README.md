@@ -2,11 +2,11 @@
 
 ## Disclaimer
 
-All the code has been taken from a youtube channel called 'Codevolution'
-Below is the playlist
-https://www.youtube.com/watch?v=QFaFIcGhPoM&list=PLC3y8-rFHvwgg3vaYJgHGnModB54rxOk3
+All the code has been taken from a youtube channel called 'Codevolution' [playlist](https://www.youtube.com/watch?v=QFaFIcGhPoM&list=PLC3y8-rFHvwgg3vaYJgHGnModB54rxOk3)
 
 I do not own or take credit for it.
+
+---
 
 ## npx
 
