@@ -186,3 +186,12 @@ console.log(array1.reduce(reducer, 5));
 | array.reduce(reducer,initialValue)         | useReducer(reducer,initialState)                         |
 | singleValue=reducer(accumulator,itemValue) | newState=reducer(currentState,action)                    |
 | reduce method returns a single value       | useReducer returns a pair of values. [newState,dispatch] |
+
+### useState vs useReducer
+
+| Scenario                    | useState          | useReducer             |
+| --------------------------- | ----------------- | ---------------------- |
+| Number of state transitions | One or two        | Multiple               |
+| Related state transitions?  | No                | Yes                    |
+| Business logic              | No business logic | Complex business logic |
+| Local vs global             | local             | Global                 |
