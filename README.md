@@ -213,3 +213,4 @@ console.log(array1.reduce(reducer, 5));
 ### useRef
 
 - Access DOM nodes directly
+- can also be used to store immutable value
