@@ -214,3 +214,9 @@ console.log(array1.reduce(reducer, 5));
 
 - Access DOM nodes directly
 - can also be used to store immutable value
+
+### custom hooks
+
+- a js function which starts with use
+- can call other hook if needed
+- share logic, alternative to HOC, render props
