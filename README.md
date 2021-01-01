@@ -201,3 +201,7 @@ console.log(array1.reduce(reducer, 5));
 - React.memo has nothing to do with hook, used to check whether value has changed
 - Issue: React.memo thinks that parameter changed since the prop is a function which is not the same after rerender
 - so use useCallback, it will return a memoized version of callback function that only changes if one of the dependencies has changed
+
+### useMemo
+
+- To prevent unnecessary call of functions

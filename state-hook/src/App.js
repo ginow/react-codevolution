@@ -1,13 +1,13 @@
 import React from 'react'
 import './App.css';
-import ParentComponent from './components/ParentComponent'
+import Counter from './components/Counter'
 
 export const CountContext = React.createContext()
 
 function App() {
   return (
     <div className='App'>
-      <ParentComponent></ParentComponent>
+      <Counter></Counter>
     </div>
   );
 }
