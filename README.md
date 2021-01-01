@@ -197,3 +197,5 @@ console.log(array1.reduce(reducer, 5));
 | Local vs global             | local             | Global                 |
 
 ### useCallback
+
+- react.memo has nothing to do with hook
