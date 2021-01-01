@@ -209,3 +209,7 @@ console.log(array1.reduce(reducer, 5));
 | useMemo                                    | useCallback                         |
 | ------------------------------------------ | ----------------------------------- |
 | invokes the function and caches its result | caches the function instance itself |
+
+### useRef
+
+- Access DOM nodes directly
