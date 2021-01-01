@@ -195,3 +195,5 @@ console.log(array1.reduce(reducer, 5));
 | Related state transitions?  | No                | Yes                    |
 | Business logic              | No business logic | Complex business logic |
 | Local vs global             | local             | Global                 |
+
+### useCallback

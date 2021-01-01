@@ -1,13 +1,13 @@
-import React, { useReducer } from 'react'
+import React from 'react'
 import './App.css';
-import DataFetchingTwo from './components/DataFetchingTwo';
+import ParentComponent from './components/ParentComponent'
 
 export const CountContext = React.createContext()
 
 function App() {
   return (
     <div className='App'>
-      <DataFetchingTwo></DataFetchingTwo>
+      <ParentComponent></ParentComponent>
     </div>
   );
 }
