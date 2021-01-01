@@ -1,15 +1,13 @@
 import React from 'react'
 import './App.css';
-import CounterOneForHook from './components/CounterOneForHook';
-import CounterTwoForHook from './components/CounterTwoForHook';
+import UserForm from './components/UserForm';
 
 export const CountContext = React.createContext()
 
 function App() {
   return (
     <div className='App'>
-      <CounterOneForHook></CounterOneForHook>
-      <CounterTwoForHook></CounterTwoForHook>
+      <UserForm></UserForm>
     </div>
   );
 }
