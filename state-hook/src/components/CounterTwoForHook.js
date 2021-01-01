@@ -2,7 +2,8 @@ import React from 'react'
 import useCounter from './hooks/useCounter'
 
 function CounterTwoForHook() {
-    const [count, increment, decrement, reset] = useCounter()
+    // Start from 0 and increment by 1
+    const [count, increment, decrement, reset] = useCounter(0, 1)
 
     return (
         <div>
