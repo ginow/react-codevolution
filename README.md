@@ -11,6 +11,11 @@ I do not own or take credit for it.
 ## npx
 
 - npx is npm package runner, so that packages can be run without even installing them
+- Create app by below command:
+
+```
+npx create-react-app your-app-name
+```
 
 ## Component Types
 
