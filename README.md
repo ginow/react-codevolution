@@ -108,6 +108,10 @@ varA==varB //is true if both have same value and are of same type
 objA==objB //is true if both reference the exact same object
 ```
 
+## Portals
+
+- Render children into a DOM node that exists outside the DOM hierarchy of the parent component
+
 ## Error Boundary
 
 - Doesn't catch error inside event handlers (because they don't happen during rendering)
