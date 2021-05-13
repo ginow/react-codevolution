@@ -9,8 +9,8 @@ function App() {
     <Router>
       <div className="App">
         <Nav></Nav>
-        <About></About>
-        <Shop></Shop>
+        <Route path="/about" component={About} />
+        <Route path="/shop" component={Shop} />
       </div>
     </Router>
   );
