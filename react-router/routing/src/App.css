@@ -15,3 +15,7 @@ nav {
   align-items: center;
   list-style: none;
 }
+
+.item-links {
+  color: white;
+}
