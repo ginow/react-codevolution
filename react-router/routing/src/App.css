@@ -6,7 +6,7 @@ nav {
   justify-content: space-around;
   align-items: center;
   min-height: 10vh;
-  background: grey;
+  background: rgb(63, 63, 63);
 }
 .nav-links {
   width: 50%;
